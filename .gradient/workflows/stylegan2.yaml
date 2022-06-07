@@ -4,6 +4,8 @@ on:
       only: main
 
 jobs:
+
+  # 2. Get pretrained cat model
   CloneRepo:
     resources:
       instance-type: C4
